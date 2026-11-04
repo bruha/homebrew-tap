@@ -1,18 +1,16 @@
-# Bruha Tap
+# bruha/tap
 
-## How do I install these formulae?
+Homebrew formulae for [PR Warden](https://github.com/bruha/prwarden), a
+self-hosted AI pull-request reviewer, on macOS and Linux.
 
-`brew install bruha/tap/<formula>`
-
-Or `brew tap bruha/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "bruha/tap"
-brew "<formula>"
+```sh
+brew install bruha/tap/prwarden
 ```
 
-## Documentation
+Upgrade with `brew upgrade prwarden`. Each formula installs a tagged release
+whose archive checksum is pinned here, and its tests run on macOS and Linux
+before a change to it is merged.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Report a problem with PR Warden itself in its
+[issue tracker](https://github.com/bruha/prwarden/issues), and one with a
+formula here.
