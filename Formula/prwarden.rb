@@ -3,8 +3,8 @@ class Prwarden < Formula
 
   desc "Self-hosted AI pull-request reviewer built on your AI and GitHub CLIs"
   homepage "https://github.com/bruha/prwarden"
-  url "https://github.com/bruha/prwarden/archive/refs/tags/v2.2.0.tar.gz"
-  sha256 "8220de04dd3f08490949a1c9d730136038fdac8754ac70a0ebcee0c4d0d033b1"
+  url "https://github.com/bruha/prwarden/archive/refs/tags/v2.3.0.tar.gz"
+  sha256 "1b412f0aca509da721656154c9eac70775448eee0fd7a914677b7ca1ca4c629c"
   license "Apache-2.0"
 
   depends_on "gh"
@@ -19,8 +19,8 @@ class Prwarden < Formula
       Run `prwarden setup` to configure it and `prwarden doctor` to check it.
       Settings live in ~/.config/prwarden and review records in
       ~/.local/state/prwarden.
-      It reviews with an AI CLI you are already signed in to, such as kiro-cli,
-      claude, codex, or agy, which Homebrew does not install.
+      It reviews with an AI CLI such as kiro-cli, claude, codex, or agy; setup
+      checks which you have, and offers to install and sign in to the rest.
     EOS
   end
 
