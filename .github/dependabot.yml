@@ -4,6 +4,11 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+    # Titles each pull request and commit "ci(deps): bump …", a Conventional
+    # Commit. Dependabot's branch names are its own and cannot be configured.
+    commit-message:
+      prefix: ci
+      include: scope
     groups:
       github-actions:
         patterns:
