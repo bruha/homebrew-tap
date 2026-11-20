@@ -3,8 +3,8 @@ class Prwarden < Formula
 
   desc "Self-hosted AI pull-request reviewer built on your AI and GitHub CLIs"
   homepage "https://github.com/bruha/prwarden"
-  url "https://github.com/bruha/prwarden/archive/refs/tags/v3.6.0.tar.gz"
-  sha256 "fc182b7d846ab64acdee8d63dffbf70cd364bf803418055f7a09ec0e2cf274bc"
+  url "https://github.com/bruha/prwarden/archive/refs/tags/v3.7.0.tar.gz"
+  sha256 "289751db2024209896b2024dcf57aa41437b6efc914142c850b259030a161d8e"
   license "Apache-2.0"
 
   depends_on "gh"
